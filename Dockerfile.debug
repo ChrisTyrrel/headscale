@@ -1,5 +1,5 @@
 # Builder image
-FROM docker.io/golang:1.18.0-bullseye AS build
+FROM docker.io/golang:1.20.2-bullseye AS build
 ARG VERSION=dev
 ENV GOPATH /go
 WORKDIR /go/src/headscale
